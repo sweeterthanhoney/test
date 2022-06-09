@@ -29,6 +29,10 @@ class DatabaseSeeder extends Seeder
             Supply_DetailSeeder::class,
             Order_DetailSeeder::class,
             Operational_DepoSeeder::class,
+<<<<<<< HEAD
+=======
+            ExpenseSeeder::class,
+>>>>>>> 1821301 (Menambahkan Database Expenses)
         ]);
     }
     }

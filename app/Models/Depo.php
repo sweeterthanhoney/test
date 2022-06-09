@@ -38,4 +38,12 @@ class Depo extends Model
     {
         return $this->hasMany(Customer_Order::class);
     }
+<<<<<<< HEAD
+=======
+
+    public function expense()
+    {
+        return $this->hasMany(Expense::class);
+    }
+>>>>>>> 1821301 (Menambahkan Database Expenses)
 }
